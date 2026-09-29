@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+.vercel/
+/banner hero desktop.png
+/banner hero mobile.png
+/imagem rose.png
+/logo método.png
+/logo método (fundo escuro).png
+/mockup plataforma.png
+/video para seção.mp4
