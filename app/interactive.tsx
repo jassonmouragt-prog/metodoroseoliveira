@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import methodLogo from "../public/logo-metodo.png";
+import methodLogo from "../public/logo-metodo-header.webp";
 
 const links = [
   ["O Método", "#metodo"], ["Para quem é", "#para-quem"],
@@ -19,7 +19,7 @@ export function Header() {
   }, []);
   return <header className={`site-header ${scrolled ? "is-scrolled" : ""} ${open ? "menu-open" : ""}`}>
     <div className="header-inner">
-      <a href="#inicio" className="wordmark" aria-label="Método Rose Oliveira — início"><Image src={methodLogo} alt="Método Rose Oliveira" sizes="(max-width: 800px) 150px, 195px" loading="eager" /></a>
+      <a href="#inicio" className="wordmark" aria-label="Método Rose Oliveira — início"><Image src={methodLogo} alt="Método Rose Oliveira" sizes="(max-width: 800px) 150px, 195px" loading="eager" unoptimized /></a>
       <nav id="primary-navigation" className="nav-links" aria-label="Navegação principal">
         {links.map(([name, href]) => <a key={href} href={href} onClick={() => setOpen(false)}>{name}</a>)}
         <a className="mobile-nav-cta" href="#oferta" onClick={() => setOpen(false)}>Quero conhecer o método <span aria-hidden="true">↗</span></a>

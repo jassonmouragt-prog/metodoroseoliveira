@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description,
   openGraph: { title, description, type: "website", locale: "pt_BR" },
   twitter: { card: "summary_large_image", title, description },
-  icons: { icon: "/logo-metodo.png" },
+  icons: { icon: "/logo-metodo.webp" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="pt-BR"><body>{children}</body></html>;
+  return <html lang="pt-BR"><head><link rel="preload" as="image" href="/banner-hero-desktop.webp" media="(min-width: 601px)" /><link rel="preload" as="image" href="/banner-hero-mobile.webp" media="(max-width: 600px)" /></head><body>{children}</body></html>;
 }

@@ -28,7 +28,7 @@ The public Hotmart listing confirms client service through finishing, profitable
 
 ## Brand Commitments
 
-Rose Oliveira Hair; Método Rose Oliveira; official palette #E6D4CB, #B87F80, #595C5B. The user prefers a sans-serif presentation with compact text spacing. Brand manual and official font files have not been supplied. Desktop/mobile banners and the Método Rose Oliveira logo are available at `public/banner-hero-desktop.png`, `public/banner-hero-mobile.png` and `public/logo-metodo.png`.
+Rose Oliveira Hair; Método Rose Oliveira; official palette #E6D4CB, #B87F80, #595C5B. The user prefers a sans-serif presentation with compact text spacing. Brand manual and official font files have not been supplied. Desktop/mobile banners and the Método Rose Oliveira logo are served as WebP at `public/banner-hero-desktop.webp`, `public/banner-hero-mobile.webp` and `public/logo-metodo.webp`.
 
 ## Evidence on Hand
 
