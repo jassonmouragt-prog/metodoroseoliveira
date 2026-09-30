@@ -10,12 +10,11 @@ type Transformation = {
   description?: string;
 };
 
-// Add only real, authorized pairs from the same client appointment.
-// Put optimized files in public/transformacoes and fill both paths for each pair.
 const transformations: Transformation[] = [
-  { id: "01" },
-  { id: "02" },
-  { id: "03" },
+  { id: "01", before: "/transformacoes/antes-01.webp", after: "/transformacoes/depois-01.webp" },
+  { id: "02", before: "/transformacoes/antes-02.webp", after: "/transformacoes/depois-02.webp" },
+  { id: "03", before: "/transformacoes/antes-03.webp", after: "/transformacoes/depois-03.webp" },
+  { id: "04", before: "/transformacoes/antes-04.webp", after: "/transformacoes/depois-04.webp" },
 ];
 
 function ComparisonImage({ src, phase, id, description, priority }: { src?: string; phase: "Antes" | "Depois"; id: string; description?: string; priority: boolean }) {
